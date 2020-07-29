@@ -646,7 +646,7 @@ h5 {
         padding-top: 100px;
         width: 100%;
         position: relative;
-        margin: 50px 0 0 10px;
+        margin: 50px auto 0;
     }
 
     .delivery__inviting-title {
@@ -662,7 +662,9 @@ h5 {
     }
 
     .btn-confirm {
-        margin-top: 30px;
+        margin: 30px auto 0;
+        width: auto;
+        max-width: 400px;
     }
 
     /* about */
@@ -758,6 +760,7 @@ h5 {
     .delivery__title {
         width: 90%;
         line-height: 60px;
+        margin: 0 auto;
         margin-bottom: 5px;
     }
 
@@ -769,12 +772,18 @@ h5 {
         font-size: 18px;
     }
 
+    .delivery__confirm {
+        max-width: 320px;
+        margin: 20px auto 0;
+    }
+
     .btn-order {
         margin-top: 10px;
     }
 
     .order__subscribe {
         width: 100%;
+        margin-top: 70px;
     }  
 
     .order__subscribe-title h2 {
@@ -790,14 +799,17 @@ h5 {
     }
 
     .order__subscribe-input input {
-        width: 90%;
+        width: 100%;
         height: 50px;
         font-size: 20px;
         margin-bottom: 10px;
+        max-width: 567px;
     }
 
     .btn-subscribe {
         position: relative;
+        width: 100%;
+        max-width: 567px;
     }
 
     .footer {
