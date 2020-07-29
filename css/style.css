@@ -111,6 +111,10 @@ li {
     width: 100%;
 }
 
+.dropdown-icon {
+    display: none;
+}
+
 h2 {
     font-size: 58px;
 }
@@ -511,6 +515,10 @@ h5 {
     .container {
         padding: 0 15px;
         max-width: 100%;
+    }
+
+    .dropdown-icon {
+        display: block;
     }
 
     .header {
